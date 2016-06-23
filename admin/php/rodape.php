@@ -1,0 +1,1 @@
+<tt> Painel de Controle | COPYRIGHT © <?php echo date('Y'); ?> </tt>

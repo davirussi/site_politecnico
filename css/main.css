@@ -1,0 +1,271 @@
+body {
+    background-image: url(../images/fundo.png);
+    background-color: white;
+    background-repeat: repeat-x repeat-y;
+    font-family: verdana, helvetica, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+pre {
+    white-space: -moz-pre-wrap; /* Mozilla, supported since 1999 */
+    white-space: -pre-wrap; /* Opera */
+    white-space: -o-pre-wrap; /* Opera */
+    white-space: pre-wrap; /* CSS3 - Text module (Candidate Recommendation) http://www.w3.org/TR/css3-text/#white-space */
+    word-wrap: break-word; /* IE 5.5+ */
+}
+
+img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #000;
+}
+
+#tudo {
+    text-align: center;
+    margin: 0 auto;
+    width: 1024px;
+}
+
+#cabecalho_brasil div.fundo_verde {
+    float:right;
+    width:100%;
+    background:#00500f;
+    position:absolute;
+    top:0px;
+    height:28px;
+}
+#cabecalho_brasil div.fundo_verde_amarelo {
+    float:left; 
+    width:50%;
+    background:url('../images/bar.png');
+    position:absolute;
+    top:0px;
+    height:28px;
+}
+#cabecalho_brasil div.brasil {
+    margin: 0 auto;
+    width:1024px;
+    background:url('../images/bar.png');
+    position:relative;
+    top:0px;
+    height:28px;
+}
+
+#cabecalho_brasil #brasil {
+    text-align: right;
+    margin: 0 auto;
+    width: 1024px;
+}
+#cabecalho {
+    background-color: #006699;
+    background-image:url('../images/topo.png');
+    height: 100px;
+}
+#menu {
+    text-align: left;
+}
+#content {
+    text-align: left;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#container #esquerda {
+    float: left;
+    width: 250px;
+}
+#container #direita {
+    float: right;
+    width: 770px;
+}
+#template {
+    border: 1px dashed;
+    
+}
+#template_titulo {
+    background-color: #006699;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    border-bottom: 1px dashed #000;
+
+}
+#template_corpo {
+    padding: 30px;
+    background: url(../images/transparencia01.png);
+    min-height: 210px;
+}
+
+#fundo_calendario {
+   background: url(../images/icon_calendar.png); 
+   color: black;
+   width: 33px;
+   height: 33px;
+   float:  left;
+}
+
+.noticia {
+    margin-bottom: 10px;
+}
+.noticia .titulo {
+    margin-bottom: 10px;
+    color: #069;
+    font-weight: bold;
+}
+.noticia .resumo {
+    font-size: 14px;
+}
+.noticia .data {
+    font-size: 10px;
+    color: gray;
+}
+
+
+.servicos {
+    margin-top: 5px;
+    border: 1px dashed;
+}
+.servicos .titulo {
+    background-color: #006699;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+}
+.servicos .corpo {
+    padding: 8px;
+    background: url(../images/transparencia01.png);
+    border-top: 1px dashed #000;
+    font-size: 10px;
+}
+
+#menu_lateral {
+    border: 1px dashed;
+}
+#menu_lateral_titulo {
+    background-color: #006699;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+   
+
+}
+#menu_lateral_corpo {
+    padding: 4px;
+    background: url(../images/transparencia01.png);
+    border-top: 1px dashed #000;
+}
+#menu_lateral_corpo li {
+    padding-bottom: 8px;
+
+}
+
+#rodape {
+    text-align: center;
+    min-height: 100px;
+    background: url(../images/transparencia01.png);
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+table.rodape {
+    width: 100%;
+    border-top:dashed;
+    border-bottom:dashed;
+    border-left:dashed;
+    border-width: 1px;
+    border-color: #000;
+}
+table.rodape td{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-right:dashed;
+    border-width: 1px;
+    border-color: #000;
+}
+
+#breadcrumbs {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#breadcrumbs a{
+    color: black;
+}
+#breadcrumbs a:hover{
+    color: black;
+    text-decoration: underline;
+}
+#breadcrumbs a:visited{
+    color: black;
+}
+
+#template_corpo a{
+    color: #069;
+}
+#template_corpo a:hover{
+    color: #069;
+}
+#template_corpo a:visited{
+    color: #069;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+/* rss */
+table#rss
+{
+   font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+   border:1px solid #4C88BE;
+   width:200;
+   border-collapse:collapse;
+}
+
+table#rss td, #data th 
+{
+   font-size:0.8em;
+   border:1px solid #4C88BE;
+   padding:3px 7px 2px 7px;
+}
+table#rss th 
+{
+   border:1px solid #4C88BE;
+   font-size:0.9em;
+   text-align:center;
+   padding-top:5px;
+   padding-bottom:4px;
+   background-color:#00477F;
+   color:#ffffff;
+}
+
+table#rss tr td 
+{
+   border:1px solid #4C88BE;
+   font-size:0.8em;
+   white-space:wrap;
+   text-align:left;
+   color:#000000;
+   background-color:#EAF2D3;
+}
+/* fim -rss */

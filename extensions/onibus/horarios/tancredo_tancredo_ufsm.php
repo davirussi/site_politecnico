@@ -1,0 +1,34 @@
+<?php
+$horario[] = (int)"0520";
+$horario[] = (int)"0550";
+$horario[] = (int)"0600";
+$horario[] = (int)"0605";
+$horario[] = (int)"0610";
+$horario[] = (int)"0630";
+$horario[] = (int)"0635";
+$horario[] = (int)"0646";
+$horario[] = (int)"0646";
+$horario[] = (int)"0650";
+$horario[] = (int)"0700";
+$horario[] = (int)"0705";
+$horario[] = (int)"0705";
+$horario[] = (int)"0715";
+$horario[] = (int)"0715";
+$horario[] = (int)"0725";
+$horario[] = (int)"0725";
+$horario[] = (int)"0825";
+$horario[] = (int)"0850";
+$horario[] = (int)"0940";
+$horario[] = (int)"1025";
+$horario[] = (int)"1100";
+$horario[] = (int)"1135";
+$horario[] = (int)"1205";
+$horario[] = (int)"1238";
+$horario[] = (int)"1250";
+$horario[] = (int)"1315";
+$horario[] = (int)"1405";
+$horario[] = (int)"1500";
+$horario[] = (int)"1530";
+$horario[] = (int)"1725";
+$horario[] = (int)"1755";
+?>

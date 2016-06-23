@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0">
+    <channel>
+        <title> Politécnico UFSM Informática </title>
+        <link>http://localhost/informatica_poli/</link>
+        <description>Site de informática do CPUFSM</description>
+                <item>
+                    <title>teste de noticias</title>
+                    <link>http://localhost/informatica_poli/index.php?s=noticia&#38;id_noticia=2&#38;id1=22</link>
+                    <description>çjoiaodsaj</description>
+                </item>
+                
+                <item>
+                    <title>aaaaaaaaaaaaaaaaaaashuahsuha</title>
+                    <link>http://localhost/informatica_poli/index.php?s=noticia&#38;id_noticia=1&#38;id1=33</link>
+                    <description>ashuahs</description>
+                </item>
+                
+    </channel>
+</rss>

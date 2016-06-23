@@ -1,0 +1,36 @@
+
+
+table 
+{
+   font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+   border:1px solid #4C88BE;
+   width:200;
+   border-collapse:collapse;
+}
+
+#tabela td, #data th 
+{
+   font-size:0.8em;
+   border:1px solid #4C88BE;
+   padding:3px 7px 2px 7px;
+}
+#tabela th 
+{
+   border:1px solid #4C88BE;
+   font-size:0.9em;
+   text-align:center;
+   padding-top:5px;
+   padding-bottom:4px;
+   background-color:#00477F;
+   color:#ffffff;
+}
+
+#tabela tr td 
+{
+   border:1px solid #4C88BE;
+   font-size:0.8em;
+   white-space:wrap;
+   text-align:left;
+   color:#000000;
+   background-color:#EAF2D3;
+}

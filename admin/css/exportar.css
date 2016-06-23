@@ -1,0 +1,26 @@
+/* formatacao form */
+.tabela_exportar {
+    width: 100%;
+    color: #069;
+}
+
+.tabela_exportar td {
+    color: #069;
+    padding: 2px;
+}
+
+.cabecalho {
+    color: #069;
+}
+
+.rodape {
+    font-size: 12px;
+    color: #069;
+}
+
+.even {
+    background-color: #F1F1F1;
+}
+.odd {
+    background-color: white;
+}
